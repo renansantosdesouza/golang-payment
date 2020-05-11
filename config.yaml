@@ -1,0 +1,9 @@
+Auth :
+  Url : "https://authsandbox.braspag.com.br/oauth2/token"
+  Username : "b99a463f-88db-442a-b5fa-982187b68f5c"
+  Password : "VXT9EsUmN2JhszsEtRnb0bBXkUcyahsNtkkizGi+WfU="
+BaseUrl : "https://apisandbox.cieloecommerce.cielo.com.br"
+Payment : "/1/physicalSales"
+Confirmation : "/1/physicalSales/{{PaymentId}}/confirmation"
+Cancellation : "/1/physicalSales/{{PaymentId}}/voids"
+CancellationReversal : "/1/physicalSales/{{PaymentId}}/voids/{{VoidId}}"  
